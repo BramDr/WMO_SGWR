@@ -1,0 +1,15 @@
+name: WMO_SGWR
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  # - ipykernel
+  - numpy
+  - pandas
+  - netCDF4
+  - xarray
+  - dask
+  - cdsapi
+  - python-cdo
+  - pcraster
+  # - matplotlib
